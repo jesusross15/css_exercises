@@ -1,0 +1,18 @@
+.odd {
+    background-color: #ffb6c1;
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+.but-cooler{ 
+    font-size: 24px;
+}
+#even1 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#even2 {
+    background-color: #59f98cb9;
+    /* can include font-size: 24px or not to keep code cleaner*/
+    font-weight: bold;
+}
