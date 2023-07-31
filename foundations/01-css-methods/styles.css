@@ -1,0 +1,8 @@
+/* External method of adding css (will be used in the vast majority of cases) */
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
