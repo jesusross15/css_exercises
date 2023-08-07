@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous"/>
+
     <link rel="stylesheet" href="style.css">
     <title>Flex Box Crash Course</title>
 </head>
 <body>
+
+<!--don't want to make the navbar the flex container bc the flex items are gonna be the immediate children and 
+here we just have one div which is the container-->
 <nav class="navbar">
     <div class="container">
         <div class="logo">Flexbox</div>
@@ -35,9 +42,38 @@
                 the understanding of web development.
             </p>
         </div>
-        <img src="grid.svg" alt="">
+        <img src="grid.png" alt="grid" height="350px" width="350">
     </div>
 </header>
+
+<section class="boxes">
+    <div class="container">
+        <div class="box">
+            <h2><i class="fas fa-arrows-alt-v"></i>
+                Alignment & Space</h2>
+                <p>
+                    A more efficient way to lay out, align and distribute space among items in a container.
+                </p>
+        </div>
+
+        <div class="box">
+            <h2><i class="fas fa-arrows-alt"></i>Tricky Positioning</h2>
+            <p>
+              Flexbox usually solves tricky problems including how to position or
+              dynamically resize elements on a page
+            </p>
+          </div>
+
+        <div class="box">
+        <h2><i class="fas fa-mobile"></i>Responsive Design</h2>
+        <p>
+            Flexbox makes building a website layout (and making it responsive!)
+            much, much easier
+        </p>
+        </div> 
+
+    </div>
+</section>
 
 </body>
 </html>
