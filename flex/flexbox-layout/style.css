@@ -10,7 +10,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: black;
-    background-color: #a1c3ff;
+    background-color: #d5dceb;
 }
 
 img {
@@ -35,7 +35,7 @@ ul {
 }
 
 .navbar {
-    background-color: #5392ff;
+    background-color: #347bf7;
     color: white;
     height: 55px;
 }
@@ -52,12 +52,78 @@ ul {
     font-weight: bold;
 }
 
+/*navbar hover over color*/
+.navbar a:hover {
+    color: rgb(17, 0, 255);
+}
+
 .navbar .container {
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    height: 100%;
 }
 
 .navbar ul {
     display: flex;
+}
+
+.navbar ul li {
+    margin-left: 40px;
+}
+
+.header {
+    background-color: rgb(50, 78, 255);
+    color: white;
+    min-height: 400px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background-color: #818181;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 20px 25px;
+}
+
+.box i {
+    margin-right: 10px;
+}
+
+/*all responsive stuff that i have not gone over just yet*/
+@media(max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    /*stacks items on top of eachother very nice when you shrink window size*/
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
 }
