@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: rgb(36, 36, 244);
+    color: white;
+    margin: 10px;
+
+    /* Center Div */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex-container {
+    height: 500px;
+   display: flex;
+   background-color: rgb(224, 224, 224); 
+    /* Always on the main axis 
+    justify-content: end;
+    Always on the cross axis
+    align-items: start; */
+   flex-direction: column;
+}
+
+
